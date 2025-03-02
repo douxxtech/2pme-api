@@ -1,0 +1,10 @@
+key/delete/index.php
+key/get/index.php
+key/info/index.php
+subdomain/create/index.php
+subdomain/delete/index.php
+subdomain/list/index.php
+subdomain/update/index.php
+utils/database.php
+utils/logsapi.php
+utils/update.php
