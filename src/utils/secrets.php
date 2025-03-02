@@ -1,3 +1,4 @@
+<?php
 #Cloudflare | Your domain must be parked on cloudflare
 $cloudflare_api_url = "https://api.cloudflare.com/client/v4/zones/INSERT_ZONE_ID_HERE/dns_records"; #Your cloudflare api url
 $cloudflare_api_key = "INSERT_API_KEY_HERE"; #Your cloudflare API token (Needs DNS management access)
@@ -10,3 +11,4 @@ $host = 'IP:PORT'; #Your database host
 $dbname = 'NAME'; #Your database name
 $username = 'USERNAME'; #Your database username
 $password = 'PWD'; #Your database password
+?>
