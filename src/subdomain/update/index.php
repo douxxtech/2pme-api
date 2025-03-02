@@ -22,7 +22,7 @@ $conn = $dbResult['connection'];
 
 $apiKey = $_GET['key'] ?? null;
 $subdomain = $_GET['subdomain'] ?? null;
-$newType = $_GET['type'] ?? null;
+$newType = isset($_GET['type']) ? strtoupper($_GET['type']) : null;
 $newValue = $_GET['value'] ?? null;
 
 $ipForLogging = process_ip_for_logging($_SERVER['REMOTE_ADDR']);

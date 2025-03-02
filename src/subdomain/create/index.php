@@ -22,7 +22,7 @@ $conn = $dbResult['connection'];
 
 $apiKey = $_GET['key'] ?? null;
 $subdomain = $_GET['subdomain'] ?? null;
-$type = $_GET['type'] ?? null;
+$type = isset($_GET['type']) ? strtoupper($_GET['type']) : null;
 $value = $_GET['value'] ?? null;
 
 if (!$apiKey || !$subdomain || !$type || !$value) {
